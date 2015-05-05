@@ -2,23 +2,23 @@ class Test
 {
     public static void main(String[] args)
     {
-        testSum();
+        testMulti();
     }
 
-    private static void testSum()
+    private static void testMulti()
     {
-        int a = 12;
+        int a = 3;
         int b = 6;
-        int expected = 2;
+        int expected = 18;
         BasicMath bm = new BasicMath();
-        int result = bm.sum(a, b);
+        int result = bm.Muliplication(a, b);
         if (result == expected)
         {
-            System.out.println("Sum: OK");
+            System.out.println("Multiplication: OK");
         }
         else
         {
-            System.out.println("Sum: Failed, expected = " + expected + ", result = " + result);
+            System.out.println("Multiplication: Failed, expected = " + expected + ", result = " + result);
         }
     }
 }
