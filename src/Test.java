@@ -2,23 +2,23 @@ class Test
 {
     public static void main(String[] args)
     {
-        testSum();
+        testSubtraction();
     }
 
-    private static void testSum()
+    private static void testSubtraction()
     {
         int a = 12;
         int b = 6;
-        int expected = 2;
+        int expected = 6;
         BasicMath bm = new BasicMath();
-        int result = bm.sum(a, b);
+        int result = bm.Subtraction(a, b);
         if (result == expected)
         {
-            System.out.println("Sum: OK");
+            System.out.println("Subtraction: OK");
         }
         else
         {
-            System.out.println("Sum: Failed, expected = " + expected + ", result = " + result);
+            System.out.println("Subtraction: Failed, expected = " + expected + ", result = " + result);
         }
     }
 }
