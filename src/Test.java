@@ -9,7 +9,7 @@ class Test
     {
         int a = 12;
         int b = 6;
-        int expected = 2;
+        int expected = 18;
         BasicMath bm = new BasicMath();
         int result = bm.sum(a, b);
         if (result == expected)
