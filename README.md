@@ -1,1 +1,1 @@
-The subtraction function takes two integers and returns their subtraction.
+The Subtraction function takes two integers and returns their subtraction.
